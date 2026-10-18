@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeePassFile>
+	<Meta>
+		<Generator>KeePassXC</Generator>
+		<DatabaseName>dev</DatabaseName>
+		<DatabaseNameChanged>mM9Z4g4AAAA=</DatabaseNameChanged>
+		<DatabaseDescription>base de test</DatabaseDescription>
+		<DatabaseDescriptionChanged>mM9Z4g4AAAA=</DatabaseDescriptionChanged>
+		<DefaultUserName/>
+		<DefaultUserNameChanged>i89Z4g4AAAA=</DefaultUserNameChanged>
+		<MaintenanceHistoryDays>365</MaintenanceHistoryDays>
+		<Color/>
+		<MasterKeyChanged>ts9Z4g4AAAA=</MasterKeyChanged>
+		<MasterKeyChangeRec>-1</MasterKeyChangeRec>
+		<MasterKeyChangeForce>-1</MasterKeyChangeForce>
+		<MemoryProtection>
+			<ProtectTitle>False</ProtectTitle>
+			<ProtectUserName>False</ProtectUserName>
+			<ProtectPassword>True</ProtectPassword>
+			<ProtectURL>False</ProtectURL>
+			<ProtectNotes>False</ProtectNotes>
+		</MemoryProtection>
+		<CustomIcons/>
+		<RecycleBinEnabled>True</RecycleBinEnabled>
+		<RecycleBinUUID>AAAAAAAAAAAAAAAAAAAAAA==</RecycleBinUUID>
+		<RecycleBinChanged>i89Z4g4AAAA=</RecycleBinChanged>
+		<EntryTemplatesGroup>AAAAAAAAAAAAAAAAAAAAAA==</EntryTemplatesGroup>
+		<EntryTemplatesGroupChanged>i89Z4g4AAAA=</EntryTemplatesGroupChanged>
+		<LastSelectedGroup>AAAAAAAAAAAAAAAAAAAAAA==</LastSelectedGroup>
+		<LastTopVisibleGroup>AAAAAAAAAAAAAAAAAAAAAA==</LastTopVisibleGroup>
+		<HistoryMaxItems>10</HistoryMaxItems>
+		<HistoryMaxSize>6291456</HistoryMaxSize>
+		<SettingsChanged>i89Z4g4AAAA=</SettingsChanged>
+		<CustomData>
+			<Item>
+				<Key>KPXC_DECRYPTION_TIME_PREFERENCE</Key>
+				<Value>1000</Value>
+				<LastModificationTime>qs9Z4g4AAAA=</LastModificationTime>
+			</Item>
+			<Item>
+				<Key>_LAST_MODIFIED</Key>
+				<Value>dim. oct. 18 15:11:46 2026 GMT</Value>
+			</Item>
+			<Item>
+				<Key>KPXC_RANDOM_SLUG</Key>
+				<Value>821f166fa7214e9135e1e6a241ae657afaef098b75c7cf0981ec654b847cc9503d2f4d8366e5ef7919de984c4de18266f60f0f33b97c4a3c073b2c6afd9e66cf4ccfda0738c0281e5fee9cc9fd6ab16bdfcc6bee1e5e1ff8b257bacb2eabb847d198b5f5e880b29f26b1ed7ce733c0ed6a1865c3906e26544fe8e334f00d7784e9576ab944dc0f97220981e158697abccdfc2dd61bf571fe8f52f07c88108713ac91cdd9b60832cdf31763e4d6c54caad0708545678bab866e4d672efd49a6f10d6879b3373d275ca1c74ef7680f3e7aa43d5bd462bde49fbae1e86bafea5a3744cdfb4d322e4a071720813b6ac2b9ea57b7b67c3e8cb6b51ac1570529f4c7cc43afc0d09fd4818016592991a88f2dfbacfb652f027dcdb52a989135c11dd78f1a0182f9db4846417ba424472be6486c9deb663514794be468929c314a05e0</Value>
+				<LastModificationTime>sthm4g4AAAA=</LastModificationTime>
+			</Item>
+		</CustomData>
+	</Meta>
+	<Root>
+		<Group>
+			<UUID>IbPjfEm7SXGuCIc7Gd8SNQ==</UUID>
+			<Name>Racine</Name>
+			<Notes/>
+			<IconID>48</IconID>
+			<Times>
+				<LastModificationTime>CNhm4g4AAAA=</LastModificationTime>
+				<CreationTime>i89Z4g4AAAA=</CreationTime>
+				<LastAccessTime>CNhm4g4AAAA=</LastAccessTime>
+				<ExpiryTime>i89Z4g4AAAA=</ExpiryTime>
+				<Expires>False</Expires>
+				<UsageCount>0</UsageCount>
+				<LocationChanged>i89Z4g4AAAA=</LocationChanged>
+			</Times>
+			<IsExpanded>True</IsExpanded>
+			<DefaultAutoTypeSequence/>
+			<EnableAutoType>null</EnableAutoType>
+			<EnableSearching>null</EnableSearching>
+			<LastTopVisibleEntry>AAAAAAAAAAAAAAAAAAAAAA==</LastTopVisibleEntry>
+			<Entry>
+				<UUID>LTUe7l1FQomVADNQos9AXA==</UUID>
+				<IconID>0</IconID>
+				<ForegroundColor/>
+				<BackgroundColor/>
+				<OverrideURL/>
+				<Tags>tag1,test</Tags>
+				<Times>
+					<LastModificationTime>AdBZ4g4AAAA=</LastModificationTime>
+					<CreationTime>0c9Z4g4AAAA=</CreationTime>
+					<LastAccessTime>AdBZ4g4AAAA=</LastAccessTime>
+					<ExpiryTime>0c9Z4g4AAAA=</ExpiryTime>
+					<Expires>False</Expires>
+					<UsageCount>0</UsageCount>
+					<LocationChanged>AdBZ4g4AAAA=</LocationChanged>
+				</Times>
+				<String>
+					<Key>Notes</Key>
+					<Value>This is a note.</Value>
+				</String>
+				<String>
+					<Key>Password</Key>
+					<Value ProtectInMemory="True">passwod</Value>
+				</String>
+				<String>
+					<Key>Title</Key>
+					<Value>Password 1</Value>
+				</String>
+				<String>
+					<Key>URL</Key>
+					<Value>https://example.com</Value>
+				</String>
+				<String>
+					<Key>UserName</Key>
+					<Value>user</Value>
+				</String>
+				<AutoType>
+					<Enabled>True</Enabled>
+					<DataTransferObfuscation>0</DataTransferObfuscation>
+					<DefaultSequence/>
+				</AutoType>
+				<History/>
+			</Entry>
+			<Entry>
+				<UUID>1BtTVjacSl2OKiHlSjo+vA==</UUID>
+				<IconID>0</IconID>
+				<ForegroundColor/>
+				<BackgroundColor/>
+				<OverrideURL/>
+				<Tags>tag2,test</Tags>
+				<Times>
+					<LastModificationTime>MtFZ4g4AAAA=</LastModificationTime>
+					<CreationTime>CNBZ4g4AAAA=</CreationTime>
+					<LastAccessTime>MtFZ4g4AAAA=</LastAccessTime>
+					<ExpiryTime>qvDf6Q4AAAA=</ExpiryTime>
+					<Expires>True</Expires>
+					<UsageCount>0</UsageCount>
+					<LocationChanged>IdFZ4g4AAAA=</LocationChanged>
+				</Times>
+				<String>
+					<Key>Notes</Key>
+					<Value>This is password 2.</Value>
+				</String>
+				<String>
+					<Key>Nouvel attribut 1</Key>
+					<Value>This is the value of the new attribut 1</Value>
+				</String>
+				<String>
+					<Key>Nouvel attribut 2</Key>
+					<Value>This is the value of attribut 2</Value>
+				</String>
+				<String>
+					<Key>Password</Key>
+					<Value ProtectInMemory="True">password</Value>
+				</String>
+				<String>
+					<Key>Title</Key>
+					<Value>password 2</Value>
+				</String>
+				<String>
+					<Key>URL</Key>
+					<Value>https://exemple2.com</Value>
+				</String>
+				<String>
+					<Key>UserName</Key>
+					<Value>user</Value>
+				</String>
+				<Binary>
+					<Key>doc-text.txt</Key>
+					<Value Ref="0"/>
+				</Binary>
+				<Binary>
+					<Key>meetup.png</Key>
+					<Value Ref="0"/>
+				</Binary>
+				<AutoType>
+					<Enabled>True</Enabled>
+					<DataTransferObfuscation>0</DataTransferObfuscation>
+					<DefaultSequence/>
+				</AutoType>
+				<History>
+					<Entry>
+						<UUID>1BtTVjacSl2OKiHlSjo+vA==</UUID>
+						<IconID>0</IconID>
+						<ForegroundColor/>
+						<BackgroundColor/>
+						<OverrideURL/>
+						<Tags>tag2,test</Tags>
+						<Times>
+							<LastModificationTime>IdFZ4g4AAAA=</LastModificationTime>
+							<CreationTime>CNBZ4g4AAAA=</CreationTime>
+							<LastAccessTime>IdFZ4g4AAAA=</LastAccessTime>
+							<ExpiryTime>CNBZ4g4AAAA=</ExpiryTime>
+							<Expires>False</Expires>
+							<UsageCount>0</UsageCount>
+							<LocationChanged>IdFZ4g4AAAA=</LocationChanged>
+						</Times>
+						<String>
+							<Key>Notes</Key>
+							<Value>This is password 2.</Value>
+						</String>
+						<String>
+							<Key>Nouvel attribut 1</Key>
+							<Value>This is the value of the new attribut 1</Value>
+						</String>
+						<String>
+							<Key>Nouvel attribut 2</Key>
+							<Value>This is the value of attribut 2</Value>
+						</String>
+						<String>
+							<Key>Password</Key>
+							<Value ProtectInMemory="True">password</Value>
+						</String>
+						<String>
+							<Key>Title</Key>
+							<Value>password 2</Value>
+						</String>
+						<String>
+							<Key>URL</Key>
+							<Value>https://exemple2.com</Value>
+						</String>
+						<String>
+							<Key>UserName</Key>
+							<Value>user</Value>
+						</String>
+						<Binary>
+							<Key>doc-text.txt</Key>
+							<Value Ref="0"/>
+						</Binary>
+						<Binary>
+							<Key>meetup.png</Key>
+							<Value Ref="0"/>
+						</Binary>
+						<AutoType>
+							<Enabled>True</Enabled>
+							<DataTransferObfuscation>0</DataTransferObfuscation>
+							<DefaultSequence/>
+						</AutoType>
+					</Entry>
+				</History>
+			</Entry>
+			<Group>
+				<UUID>AGfeXA0RSOi4asdh03TtxA==</UUID>
+				<Name>group 1</Name>
+				<Notes>This is a test group 1</Notes>
+				<IconID>48</IconID>
+				<Times>
+					<LastModificationTime>O9NZ4g4AAAA=</LastModificationTime>
+					<CreationTime>ONFZ4g4AAAA=</CreationTime>
+					<LastAccessTime>O9NZ4g4AAAA=</LastAccessTime>
+					<ExpiryTime>ONFZ4g4AAAA=</ExpiryTime>
+					<Expires>False</Expires>
+					<UsageCount>0</UsageCount>
+					<LocationChanged>T9FZ4g4AAAA=</LocationChanged>
+				</Times>
+				<IsExpanded>True</IsExpanded>
+				<DefaultAutoTypeSequence/>
+				<EnableAutoType>null</EnableAutoType>
+				<EnableSearching>null</EnableSearching>
+				<LastTopVisibleEntry>AAAAAAAAAAAAAAAAAAAAAA==</LastTopVisibleEntry>
+				<Entry>
+					<UUID>ZiBo6f0vSSOZVGTW4NAFYQ==</UUID>
+					<IconID>0</IconID>
+					<ForegroundColor/>
+					<BackgroundColor/>
+					<OverrideURL/>
+					<Tags>tag1,test</Tags>
+					<Times>
+						<LastModificationTime>fNFZ4g4AAAA=</LastModificationTime>
+						<CreationTime>Y9FZ4g4AAAA=</CreationTime>
+						<LastAccessTime>fNFZ4g4AAAA=</LastAccessTime>
+						<ExpiryTime>0c9Z4g4AAAA=</ExpiryTime>
+						<Expires>False</Expires>
+						<UsageCount>0</UsageCount>
+						<LocationChanged>Z9FZ4g4AAAA=</LocationChanged>
+					</Times>
+					<PreviousParentGroup>IbPjfEm7SXGuCIc7Gd8SNQ==</PreviousParentGroup>
+					<String>
+						<Key>Notes</Key>
+						<Value>This is a note.</Value>
+					</String>
+					<String>
+						<Key>Password</Key>
+						<Value ProtectInMemory="True">passwod</Value>
+					</String>
+					<String>
+						<Key>Title</Key>
+						<Value>Password 1</Value>
+					</String>
+					<String>
+						<Key>URL</Key>
+						<Value>https://example.com</Value>
+					</String>
+					<String>
+						<Key>UserName</Key>
+						<Value>user</Value>
+					</String>
+					<AutoType>
+						<Enabled>True</Enabled>
+						<DataTransferObfuscation>0</DataTransferObfuscation>
+						<DefaultSequence/>
+					</AutoType>
+					<History>
+						<Entry>
+							<UUID>ZiBo6f0vSSOZVGTW4NAFYQ==</UUID>
+							<IconID>0</IconID>
+							<ForegroundColor/>
+							<BackgroundColor/>
+							<OverrideURL/>
+							<Tags>tag1,test</Tags>
+							<Times>
+								<LastModificationTime>Z9FZ4g4AAAA=</LastModificationTime>
+								<CreationTime>Y9FZ4g4AAAA=</CreationTime>
+								<LastAccessTime>Z9FZ4g4AAAA=</LastAccessTime>
+								<ExpiryTime>0c9Z4g4AAAA=</ExpiryTime>
+								<Expires>False</Expires>
+								<UsageCount>0</UsageCount>
+								<LocationChanged>Z9FZ4g4AAAA=</LocationChanged>
+							</Times>
+							<PreviousParentGroup>IbPjfEm7SXGuCIc7Gd8SNQ==</PreviousParentGroup>
+							<String>
+								<Key>Notes</Key>
+								<Value>This is a note.</Value>
+							</String>
+							<String>
+								<Key>Password</Key>
+								<Value ProtectInMemory="True">passwod</Value>
+							</String>
+							<String>
+								<Key>Title</Key>
+								<Value>Password 1 – Cloner</Value>
+							</String>
+							<String>
+								<Key>URL</Key>
+								<Value>https://example.com</Value>
+							</String>
+							<String>
+								<Key>UserName</Key>
+								<Value>user</Value>
+							</String>
+							<AutoType>
+								<Enabled>True</Enabled>
+								<DataTransferObfuscation>0</DataTransferObfuscation>
+								<DefaultSequence/>
+							</AutoType>
+						</Entry>
+					</History>
+				</Entry>
+				<Entry>
+					<UUID>ugXKGVo2RwOenW3274wPZw==</UUID>
+					<IconID>0</IconID>
+					<ForegroundColor/>
+					<BackgroundColor/>
+					<OverrideURL/>
+					<Tags>tag2,test</Tags>
+					<Times>
+						<LastModificationTime>sthm4g4AAAA=</LastModificationTime>
+						<CreationTime>bdFZ4g4AAAA=</CreationTime>
+						<LastAccessTime>sthm4g4AAAA=</LastAccessTime>
+						<ExpiryTime>qvDf6Q4AAAA=</ExpiryTime>
+						<Expires>True</Expires>
+						<UsageCount>0</UsageCount>
+						<LocationChanged>cNFZ4g4AAAA=</LocationChanged>
+					</Times>
+					<PreviousParentGroup>IbPjfEm7SXGuCIc7Gd8SNQ==</PreviousParentGroup>
+					<String>
+						<Key>Notes</Key>
+						<Value>This is password 2.</Value>
+					</String>
+					<String>
+						<Key>Nouvel attribut 1</Key>
+						<Value>This is the value of the new attribut 1</Value>
+					</String>
+					<String>
+						<Key>Nouvel attribut 2</Key>
+						<Value>This is the value of attribut 2</Value>
+					</String>
+					<String>
+						<Key>Password</Key>
+						<Value ProtectInMemory="True">password</Value>
+					</String>
+					<String>
+						<Key>Title</Key>
+						<Value>password 2</Value>
+					</String>
+					<String>
+						<Key>URL</Key>
+						<Value>https://exemple2.com</Value>
+					</String>
+					<String>
+						<Key>UserName</Key>
+						<Value>user</Value>
+					</String>
+					<Binary>
+						<Key>doc-text.txt</Key>
+						<Value Ref="0"/>
+					</Binary>
+					<Binary>
+						<Key>linux.png</Key>
+						<Value Ref="0"/>
+					</Binary>
+					<AutoType>
+						<Enabled>True</Enabled>
+						<DataTransferObfuscation>0</DataTransferObfuscation>
+						<DefaultSequence/>
+					</AutoType>
+					<History>
+						<Entry>
+							<UUID>ugXKGVo2RwOenW3274wPZw==</UUID>
+							<IconID>0</IconID>
+							<ForegroundColor/>
+							<BackgroundColor/>
+							<OverrideURL/>
+							<Tags>tag2,test</Tags>
+							<Times>
+								<LastModificationTime>IdFZ4g4AAAA=</LastModificationTime>
+								<CreationTime>CNBZ4g4AAAA=</CreationTime>
+								<LastAccessTime>IdFZ4g4AAAA=</LastAccessTime>
+								<ExpiryTime>CNBZ4g4AAAA=</ExpiryTime>
+								<Expires>False</Expires>
+								<UsageCount>0</UsageCount>
+								<LocationChanged>IdFZ4g4AAAA=</LocationChanged>
+							</Times>
+							<String>
+								<Key>Notes</Key>
+								<Value>This is password 2.</Value>
+							</String>
+							<String>
+								<Key>Nouvel attribut 1</Key>
+								<Value>This is the value of the new attribut 1</Value>
+							</String>
+							<String>
+								<Key>Nouvel attribut 2</Key>
+								<Value>This is the value of attribut 2</Value>
+							</String>
+							<String>
+								<Key>Password</Key>
+								<Value ProtectInMemory="True">password</Value>
+							</String>
+							<String>
+								<Key>Title</Key>
+								<Value>password 2 – Cloner</Value>
+							</String>
+							<String>
+								<Key>URL</Key>
+								<Value>https://exemple2.com</Value>
+							</String>
+							<String>
+								<Key>UserName</Key>
+								<Value>user</Value>
+							</String>
+							<Binary>
+								<Key>doc-text.txt</Key>
+								<Value Ref="0"/>
+							</Binary>
+							<Binary>
+								<Key>meetup.png</Key>
+								<Value Ref="0"/>
+							</Binary>
+							<AutoType>
+								<Enabled>True</Enabled>
+								<DataTransferObfuscation>0</DataTransferObfuscation>
+								<DefaultSequence/>
+							</AutoType>
+						</Entry>
+						<Entry>
+							<UUID>ugXKGVo2RwOenW3274wPZw==</UUID>
+							<IconID>0</IconID>
+							<ForegroundColor/>
+							<BackgroundColor/>
+							<OverrideURL/>
+							<Tags>tag2,test</Tags>
+							<Times>
+								<LastModificationTime>cNFZ4g4AAAA=</LastModificationTime>
+								<CreationTime>bdFZ4g4AAAA=</CreationTime>
+								<LastAccessTime>cNFZ4g4AAAA=</LastAccessTime>
+								<ExpiryTime>qvDf6Q4AAAA=</ExpiryTime>
+								<Expires>True</Expires>
+								<UsageCount>0</UsageCount>
+								<LocationChanged>cNFZ4g4AAAA=</LocationChanged>
+							</Times>
+							<PreviousParentGroup>IbPjfEm7SXGuCIc7Gd8SNQ==</PreviousParentGroup>
+							<String>
+								<Key>Notes</Key>
+								<Value>This is password 2.</Value>
+							</String>
+							<String>
+								<Key>Nouvel attribut 1</Key>
+								<Value>This is the value of the new attribut 1</Value>
+							</String>
+							<String>
+								<Key>Nouvel attribut 2</Key>
+								<Value>This is the value of attribut 2</Value>
+							</String>
+							<String>
+								<Key>Password</Key>
+								<Value ProtectInMemory="True">password</Value>
+							</String>
+							<String>
+								<Key>Title</Key>
+								<Value>password 2 – Cloner</Value>
+							</String>
+							<String>
+								<Key>URL</Key>
+								<Value>https://exemple2.com</Value>
+							</String>
+							<String>
+								<Key>UserName</Key>
+								<Value>user</Value>
+							</String>
+							<Binary>
+								<Key>doc-text.txt</Key>
+								<Value Ref="0"/>
+							</Binary>
+							<Binary>
+								<Key>meetup.png</Key>
+								<Value Ref="0"/>
+							</Binary>
+							<AutoType>
+								<Enabled>True</Enabled>
+								<DataTransferObfuscation>0</DataTransferObfuscation>
+								<DefaultSequence/>
+							</AutoType>
+						</Entry>
+						<Entry>
+							<UUID>ugXKGVo2RwOenW3274wPZw==</UUID>
+							<IconID>0</IconID>
+							<ForegroundColor/>
+							<BackgroundColor/>
+							<OverrideURL/>
+							<Tags>tag2,test</Tags>
+							<Times>
+								<LastModificationTime>hNFZ4g4AAAA=</LastModificationTime>
+								<CreationTime>bdFZ4g4AAAA=</CreationTime>
+								<LastAccessTime>hNFZ4g4AAAA=</LastAccessTime>
+								<ExpiryTime>qvDf6Q4AAAA=</ExpiryTime>
+								<Expires>True</Expires>
+								<UsageCount>0</UsageCount>
+								<LocationChanged>cNFZ4g4AAAA=</LocationChanged>
+							</Times>
+							<PreviousParentGroup>IbPjfEm7SXGuCIc7Gd8SNQ==</PreviousParentGroup>
+							<String>
+								<Key>Notes</Key>
+								<Value>This is password 2.</Value>
+							</String>
+							<String>
+								<Key>Nouvel attribut 1</Key>
+								<Value>This is the value of the new attribut 1</Value>
+							</String>
+							<String>
+								<Key>Nouvel attribut 2</Key>
+								<Value>This is the value of attribut 2</Value>
+							</String>
+							<String>
+								<Key>Password</Key>
+								<Value ProtectInMemory="True">password</Value>
+							</String>
+							<String>
+								<Key>Title</Key>
+								<Value>password 2</Value>
+							</String>
+							<String>
+								<Key>URL</Key>
+								<Value>https://exemple2.com</Value>
+							</String>
+							<String>
+								<Key>UserName</Key>
+								<Value>user</Value>
+							</String>
+							<Binary>
+								<Key>doc-text.txt</Key>
+								<Value Ref="0"/>
+							</Binary>
+							<Binary>
+								<Key>meetup.png</Key>
+								<Value Ref="0"/>
+							</Binary>
+							<AutoType>
+								<Enabled>True</Enabled>
+								<DataTransferObfuscation>0</DataTransferObfuscation>
+								<DefaultSequence/>
+							</AutoType>
+						</Entry>
+					</History>
+				</Entry>
+				<Group>
+					<UUID>VBjBaqvHTnmZ5d6GjLu1ng==</UUID>
+					<Name>group 2</Name>
+					<Notes/>
+					<IconID>48</IconID>
+					<Times>
+						<LastModificationTime>p9FZ4g4AAAA=</LastModificationTime>
+						<CreationTime>idFZ4g4AAAA=</CreationTime>
+						<LastAccessTime>p9FZ4g4AAAA=</LastAccessTime>
+						<ExpiryTime>idFZ4g4AAAA=</ExpiryTime>
+						<Expires>False</Expires>
+						<UsageCount>0</UsageCount>
+						<LocationChanged>jtFZ4g4AAAA=</LocationChanged>
+					</Times>
+					<IsExpanded>True</IsExpanded>
+					<DefaultAutoTypeSequence/>
+					<EnableAutoType>null</EnableAutoType>
+					<EnableSearching>null</EnableSearching>
+					<LastTopVisibleEntry>AAAAAAAAAAAAAAAAAAAAAA==</LastTopVisibleEntry>
+					<Entry>
+						<UUID>XKj2XXcORneInuOfWLdDWA==</UUID>
+						<IconID>0</IconID>
+						<ForegroundColor/>
+						<BackgroundColor/>
+						<OverrideURL/>
+						<Tags>tag2,test</Tags>
+						<Times>
+							<LastModificationTime>g9RZ4g4AAAA=</LastModificationTime>
+							<CreationTime>nNFZ4g4AAAA=</CreationTime>
+							<LastAccessTime>g9RZ4g4AAAA=</LastAccessTime>
+							<ExpiryTime>qvDf6Q4AAAA=</ExpiryTime>
+							<Expires>True</Expires>
+							<UsageCount>0</UsageCount>
+							<LocationChanged>p9FZ4g4AAAA=</LocationChanged>
+						</Times>
+						<PreviousParentGroup>AGfeXA0RSOi4asdh03TtxA==</PreviousParentGroup>
+						<String>
+							<Key>Notes</Key>
+							<Value>This is password 2.</Value>
+						</String>
+						<String>
+							<Key>Nouvel attribut 1</Key>
+							<Value>This is the value of the new attribut 1</Value>
+						</String>
+						<String>
+							<Key>Nouvel attribut 2</Key>
+							<Value>This is the value of attribut 2</Value>
+						</String>
+						<String>
+							<Key>Password</Key>
+							<Value ProtectInMemory="True">password</Value>
+						</String>
+						<String>
+							<Key>Title</Key>
+							<Value>password 2</Value>
+						</String>
+						<String>
+							<Key>URL</Key>
+							<Value>https://exemple2.com</Value>
+						</String>
+						<String>
+							<Key>UserName</Key>
+							<Value>user</Value>
+						</String>
+						<Binary>
+							<Key>doc-text.txt</Key>
+							<Value Ref="0"/>
+						</Binary>
+						<Binary>
+							<Key>firefox.png</Key>
+							<Value Ref="0"/>
+						</Binary>
+						<AutoType>
+							<Enabled>True</Enabled>
+							<DataTransferObfuscation>0</DataTransferObfuscation>
+							<DefaultSequence/>
+						</AutoType>
+						<History>
+							<Entry>
+								<UUID>XKj2XXcORneInuOfWLdDWA==</UUID>
+								<IconID>0</IconID>
+								<ForegroundColor/>
+								<BackgroundColor/>
+								<OverrideURL/>
+								<Tags>tag2,test</Tags>
+								<Times>
+									<LastModificationTime>IdFZ4g4AAAA=</LastModificationTime>
+									<CreationTime>CNBZ4g4AAAA=</CreationTime>
+									<LastAccessTime>IdFZ4g4AAAA=</LastAccessTime>
+									<ExpiryTime>CNBZ4g4AAAA=</ExpiryTime>
+									<Expires>False</Expires>
+									<UsageCount>0</UsageCount>
+									<LocationChanged>IdFZ4g4AAAA=</LocationChanged>
+								</Times>
+								<String>
+									<Key>Notes</Key>
+									<Value>This is password 2.</Value>
+								</String>
+								<String>
+									<Key>Nouvel attribut 1</Key>
+									<Value>This is the value of the new attribut 1</Value>
+								</String>
+								<String>
+									<Key>Nouvel attribut 2</Key>
+									<Value>This is the value of attribut 2</Value>
+								</String>
+								<String>
+									<Key>Password</Key>
+									<Value ProtectInMemory="True">password</Value>
+								</String>
+								<String>
+									<Key>Title</Key>
+									<Value>password 2 – Cloner – Cloner</Value>
+								</String>
+								<String>
+									<Key>URL</Key>
+									<Value>https://exemple2.com</Value>
+								</String>
+								<String>
+									<Key>UserName</Key>
+									<Value>user</Value>
+								</String>
+								<Binary>
+									<Key>doc-text.txt</Key>
+									<Value Ref="0"/>
+								</Binary>
+								<Binary>
+									<Key>meetup.png</Key>
+									<Value Ref="0"/>
+								</Binary>
+								<AutoType>
+									<Enabled>True</Enabled>
+									<DataTransferObfuscation>0</DataTransferObfuscation>
+									<DefaultSequence/>
+								</AutoType>
+							</Entry>
+							<Entry>
+								<UUID>XKj2XXcORneInuOfWLdDWA==</UUID>
+								<IconID>0</IconID>
+								<ForegroundColor/>
+								<BackgroundColor/>
+								<OverrideURL/>
+								<Tags>tag2,test</Tags>
+								<Times>
+									<LastModificationTime>cNFZ4g4AAAA=</LastModificationTime>
+									<CreationTime>bdFZ4g4AAAA=</CreationTime>
+									<LastAccessTime>cNFZ4g4AAAA=</LastAccessTime>
+									<ExpiryTime>qvDf6Q4AAAA=</ExpiryTime>
+									<Expires>True</Expires>
+									<UsageCount>0</UsageCount>
+									<LocationChanged>cNFZ4g4AAAA=</LocationChanged>
+								</Times>
+								<PreviousParentGroup>IbPjfEm7SXGuCIc7Gd8SNQ==</PreviousParentGroup>
+								<String>
+									<Key>Notes</Key>
+									<Value>This is password 2.</Value>
+								</String>
+								<String>
+									<Key>Nouvel attribut 1</Key>
+									<Value>This is the value of the new attribut 1</Value>
+								</String>
+								<String>
+									<Key>Nouvel attribut 2</Key>
+									<Value>This is the value of attribut 2</Value>
+								</String>
+								<String>
+									<Key>Password</Key>
+									<Value ProtectInMemory="True">password</Value>
+								</String>
+								<String>
+									<Key>Title</Key>
+									<Value>password 2 – Cloner – Cloner</Value>
+								</String>
+								<String>
+									<Key>URL</Key>
+									<Value>https://exemple2.com</Value>
+								</String>
+								<String>
+									<Key>UserName</Key>
+									<Value>user</Value>
+								</String>
+								<Binary>
+									<Key>doc-text.txt</Key>
+									<Value Ref="0"/>
+								</Binary>
+								<Binary>
+									<Key>meetup.png</Key>
+									<Value Ref="0"/>
+								</Binary>
+								<AutoType>
+									<Enabled>True</Enabled>
+									<DataTransferObfuscation>0</DataTransferObfuscation>
+									<DefaultSequence/>
+								</AutoType>
+							</Entry>
+							<Entry>
+								<UUID>XKj2XXcORneInuOfWLdDWA==</UUID>
+								<IconID>0</IconID>
+								<ForegroundColor/>
+								<BackgroundColor/>
+								<OverrideURL/>
+								<Tags>tag2,test</Tags>
+								<Times>
+									<LastModificationTime>p9FZ4g4AAAA=</LastModificationTime>
+									<CreationTime>nNFZ4g4AAAA=</CreationTime>
+									<LastAccessTime>p9FZ4g4AAAA=</LastAccessTime>
+									<ExpiryTime>qvDf6Q4AAAA=</ExpiryTime>
+									<Expires>True</Expires>
+									<UsageCount>0</UsageCount>
+									<LocationChanged>p9FZ4g4AAAA=</LocationChanged>
+								</Times>
+								<PreviousParentGroup>AGfeXA0RSOi4asdh03TtxA==</PreviousParentGroup>
+								<String>
+									<Key>Notes</Key>
+									<Value>This is password 2.</Value>
+								</String>
+								<String>
+									<Key>Nouvel attribut 1</Key>
+									<Value>This is the value of the new attribut 1</Value>
+								</String>
+								<String>
+									<Key>Nouvel attribut 2</Key>
+									<Value>This is the value of attribut 2</Value>
+								</String>
+								<String>
+									<Key>Password</Key>
+									<Value ProtectInMemory="True">password</Value>
+								</String>
+								<String>
+									<Key>Title</Key>
+									<Value>password 2 – Cloner</Value>
+								</String>
+								<String>
+									<Key>URL</Key>
+									<Value>https://exemple2.com</Value>
+								</String>
+								<String>
+									<Key>UserName</Key>
+									<Value>user</Value>
+								</String>
+								<Binary>
+									<Key>doc-text.txt</Key>
+									<Value Ref="0"/>
+								</Binary>
+								<Binary>
+									<Key>meetup.png</Key>
+									<Value Ref="0"/>
+								</Binary>
+								<AutoType>
+									<Enabled>True</Enabled>
+									<DataTransferObfuscation>0</DataTransferObfuscation>
+									<DefaultSequence/>
+								</AutoType>
+							</Entry>
+							<Entry>
+								<UUID>XKj2XXcORneInuOfWLdDWA==</UUID>
+								<IconID>0</IconID>
+								<ForegroundColor/>
+								<BackgroundColor/>
+								<OverrideURL/>
+								<Tags>tag2,test</Tags>
+								<Times>
+									<LastModificationTime>uNFZ4g4AAAA=</LastModificationTime>
+									<CreationTime>nNFZ4g4AAAA=</CreationTime>
+									<LastAccessTime>uNFZ4g4AAAA=</LastAccessTime>
+									<ExpiryTime>qvDf6Q4AAAA=</ExpiryTime>
+									<Expires>True</Expires>
+									<UsageCount>0</UsageCount>
+									<LocationChanged>p9FZ4g4AAAA=</LocationChanged>
+								</Times>
+								<PreviousParentGroup>AGfeXA0RSOi4asdh03TtxA==</PreviousParentGroup>
+								<String>
+									<Key>Notes</Key>
+									<Value>This is password 2.</Value>
+								</String>
+								<String>
+									<Key>Nouvel attribut 1</Key>
+									<Value>This is the value of the new attribut 1</Value>
+								</String>
+								<String>
+									<Key>Nouvel attribut 2</Key>
+									<Value>This is the value of attribut 2</Value>
+								</String>
+								<String>
+									<Key>Password</Key>
+									<Value ProtectInMemory="True">password</Value>
+								</String>
+								<String>
+									<Key>Title</Key>
+									<Value>password 2</Value>
+								</String>
+								<String>
+									<Key>URL</Key>
+									<Value>https://exemple2.com</Value>
+								</String>
+								<String>
+									<Key>UserName</Key>
+									<Value>user</Value>
+								</String>
+								<Binary>
+									<Key>doc-text.txt</Key>
+									<Value Ref="0"/>
+								</Binary>
+								<Binary>
+									<Key>meetup.png</Key>
+									<Value Ref="0"/>
+								</Binary>
+								<AutoType>
+									<Enabled>True</Enabled>
+									<DataTransferObfuscation>0</DataTransferObfuscation>
+									<DefaultSequence/>
+								</AutoType>
+							</Entry>
+						</History>
+					</Entry>
+					<Entry>
+						<UUID>6GGyk810SyaI5syjWwTmfA==</UUID>
+						<IconID>0</IconID>
+						<ForegroundColor/>
+						<BackgroundColor/>
+						<OverrideURL/>
+						<Tags>tag1,test</Tags>
+						<Times>
+							<LastModificationTime>sNFZ4g4AAAA=</LastModificationTime>
+							<CreationTime>ldFZ4g4AAAA=</CreationTime>
+							<LastAccessTime>sNFZ4g4AAAA=</LastAccessTime>
+							<ExpiryTime>0c9Z4g4AAAA=</ExpiryTime>
+							<Expires>False</Expires>
+							<UsageCount>0</UsageCount>
+							<LocationChanged>p9FZ4g4AAAA=</LocationChanged>
+						</Times>
+						<PreviousParentGroup>AGfeXA0RSOi4asdh03TtxA==</PreviousParentGroup>
+						<String>
+							<Key>Notes</Key>
+							<Value>This is a note.</Value>
+						</String>
+						<String>
+							<Key>Password</Key>
+							<Value ProtectInMemory="True">passwod</Value>
+						</String>
+						<String>
+							<Key>Title</Key>
+							<Value>Password 1</Value>
+						</String>
+						<String>
+							<Key>URL</Key>
+							<Value>https://example.com</Value>
+						</String>
+						<String>
+							<Key>UserName</Key>
+							<Value>user</Value>
+						</String>
+						<AutoType>
+							<Enabled>True</Enabled>
+							<DataTransferObfuscation>0</DataTransferObfuscation>
+							<DefaultSequence/>
+						</AutoType>
+						<History>
+							<Entry>
+								<UUID>6GGyk810SyaI5syjWwTmfA==</UUID>
+								<IconID>0</IconID>
+								<ForegroundColor/>
+								<BackgroundColor/>
+								<OverrideURL/>
+								<Tags>tag1,test</Tags>
+								<Times>
+									<LastModificationTime>Z9FZ4g4AAAA=</LastModificationTime>
+									<CreationTime>Y9FZ4g4AAAA=</CreationTime>
+									<LastAccessTime>Z9FZ4g4AAAA=</LastAccessTime>
+									<ExpiryTime>0c9Z4g4AAAA=</ExpiryTime>
+									<Expires>False</Expires>
+									<UsageCount>0</UsageCount>
+									<LocationChanged>Z9FZ4g4AAAA=</LocationChanged>
+								</Times>
+								<PreviousParentGroup>IbPjfEm7SXGuCIc7Gd8SNQ==</PreviousParentGroup>
+								<String>
+									<Key>Notes</Key>
+									<Value>This is a note.</Value>
+								</String>
+								<String>
+									<Key>Password</Key>
+									<Value ProtectInMemory="True">passwod</Value>
+								</String>
+								<String>
+									<Key>Title</Key>
+									<Value>Password 1 – Cloner – Cloner</Value>
+								</String>
+								<String>
+									<Key>URL</Key>
+									<Value>https://example.com</Value>
+								</String>
+								<String>
+									<Key>UserName</Key>
+									<Value>user</Value>
+								</String>
+								<AutoType>
+									<Enabled>True</Enabled>
+									<DataTransferObfuscation>0</DataTransferObfuscation>
+									<DefaultSequence/>
+								</AutoType>
+							</Entry>
+							<Entry>
+								<UUID>6GGyk810SyaI5syjWwTmfA==</UUID>
+								<IconID>0</IconID>
+								<ForegroundColor/>
+								<BackgroundColor/>
+								<OverrideURL/>
+								<Tags>tag1,test</Tags>
+								<Times>
+									<LastModificationTime>p9FZ4g4AAAA=</LastModificationTime>
+									<CreationTime>ldFZ4g4AAAA=</CreationTime>
+									<LastAccessTime>p9FZ4g4AAAA=</LastAccessTime>
+									<ExpiryTime>0c9Z4g4AAAA=</ExpiryTime>
+									<Expires>False</Expires>
+									<UsageCount>0</UsageCount>
+									<LocationChanged>p9FZ4g4AAAA=</LocationChanged>
+								</Times>
+								<PreviousParentGroup>AGfeXA0RSOi4asdh03TtxA==</PreviousParentGroup>
+								<String>
+									<Key>Notes</Key>
+									<Value>This is a note.</Value>
+								</String>
+								<String>
+									<Key>Password</Key>
+									<Value ProtectInMemory="True">passwod</Value>
+								</String>
+								<String>
+									<Key>Title</Key>
+									<Value>Password 1 – Cloner</Value>
+								</String>
+								<String>
+									<Key>URL</Key>
+									<Value>https://example.com</Value>
+								</String>
+								<String>
+									<Key>UserName</Key>
+									<Value>user</Value>
+								</String>
+								<AutoType>
+									<Enabled>True</Enabled>
+									<DataTransferObfuscation>0</DataTransferObfuscation>
+									<DefaultSequence/>
+								</AutoType>
+							</Entry>
+						</History>
+					</Entry>
+				</Group>
+			</Group>
+			<Group>
+				<UUID>KKSN3CYrSCmVZBcfxmSk9g==</UUID>
+				<Name>group 3</Name>
+				<Notes>This is group 3</Notes>
+				<IconID>48</IconID>
+				<Times>
+					<LastModificationTime>8dFZ4g4AAAA=</LastModificationTime>
+					<CreationTime>ydFZ4g4AAAA=</CreationTime>
+					<LastAccessTime>8dFZ4g4AAAA=</LastAccessTime>
+					<ExpiryTime>SfHf6Q4AAAA=</ExpiryTime>
+					<Expires>True</Expires>
+					<UsageCount>0</UsageCount>
+					<LocationChanged>3NFZ4g4AAAA=</LocationChanged>
+				</Times>
+				<IsExpanded>True</IsExpanded>
+				<DefaultAutoTypeSequence/>
+				<EnableAutoType>null</EnableAutoType>
+				<EnableSearching>null</EnableSearching>
+				<LastTopVisibleEntry>AAAAAAAAAAAAAAAAAAAAAA==</LastTopVisibleEntry>
+				<Entry>
+					<UUID>xE5OwAjASs6pAXQrzXTRCw==</UUID>
+					<IconID>0</IconID>
+					<ForegroundColor/>
+					<BackgroundColor/>
+					<OverrideURL/>
+					<Tags>tag1,test</Tags>
+					<Times>
+						<LastModificationTime>/dFZ4g4AAAA=</LastModificationTime>
+						<CreationTime>6NFZ4g4AAAA=</CreationTime>
+						<LastAccessTime>/dFZ4g4AAAA=</LastAccessTime>
+						<ExpiryTime>0c9Z4g4AAAA=</ExpiryTime>
+						<Expires>False</Expires>
+						<UsageCount>0</UsageCount>
+						<LocationChanged>8dFZ4g4AAAA=</LocationChanged>
+					</Times>
+					<PreviousParentGroup>IbPjfEm7SXGuCIc7Gd8SNQ==</PreviousParentGroup>
+					<String>
+						<Key>Notes</Key>
+						<Value>This is a note.</Value>
+					</String>
+					<String>
+						<Key>Password</Key>
+						<Value ProtectInMemory="True">passwod</Value>
+					</String>
+					<String>
+						<Key>Title</Key>
+						<Value>Password 10</Value>
+					</String>
+					<String>
+						<Key>URL</Key>
+						<Value>https://example.com</Value>
+					</String>
+					<String>
+						<Key>UserName</Key>
+						<Value>user</Value>
+					</String>
+					<AutoType>
+						<Enabled>True</Enabled>
+						<DataTransferObfuscation>0</DataTransferObfuscation>
+						<DefaultSequence/>
+					</AutoType>
+					<History>
+						<Entry>
+							<UUID>xE5OwAjASs6pAXQrzXTRCw==</UUID>
+							<IconID>0</IconID>
+							<ForegroundColor/>
+							<BackgroundColor/>
+							<OverrideURL/>
+							<Tags>tag1,test</Tags>
+							<Times>
+								<LastModificationTime>8dFZ4g4AAAA=</LastModificationTime>
+								<CreationTime>6NFZ4g4AAAA=</CreationTime>
+								<LastAccessTime>8dFZ4g4AAAA=</LastAccessTime>
+								<ExpiryTime>0c9Z4g4AAAA=</ExpiryTime>
+								<Expires>False</Expires>
+								<UsageCount>0</UsageCount>
+								<LocationChanged>8dFZ4g4AAAA=</LocationChanged>
+							</Times>
+							<PreviousParentGroup>IbPjfEm7SXGuCIc7Gd8SNQ==</PreviousParentGroup>
+							<String>
+								<Key>Notes</Key>
+								<Value>This is a note.</Value>
+							</String>
+							<String>
+								<Key>Password</Key>
+								<Value ProtectInMemory="True">passwod</Value>
+							</String>
+							<String>
+								<Key>Title</Key>
+								<Value>Password 1 – Cloner</Value>
+							</String>
+							<String>
+								<Key>URL</Key>
+								<Value>https://example.com</Value>
+							</String>
+							<String>
+								<Key>UserName</Key>
+								<Value>user</Value>
+							</String>
+							<AutoType>
+								<Enabled>True</Enabled>
+								<DataTransferObfuscation>0</DataTransferObfuscation>
+								<DefaultSequence/>
+							</AutoType>
+						</Entry>
+					</History>
+				</Entry>
+				<Entry>
+					<UUID>4lrbyX0ES1CvPNcsRdUUtQ==</UUID>
+					<IconID>0</IconID>
+					<ForegroundColor/>
+					<BackgroundColor/>
+					<OverrideURL/>
+					<Tags>tag2,test</Tags>
+					<Times>
+						<LastModificationTime>CNJZ4g4AAAA=</LastModificationTime>
+						<CreationTime>7dFZ4g4AAAA=</CreationTime>
+						<LastAccessTime>CNJZ4g4AAAA=</LastAccessTime>
+						<ExpiryTime>qvDf6Q4AAAA=</ExpiryTime>
+						<Expires>True</Expires>
+						<UsageCount>0</UsageCount>
+						<LocationChanged>8dFZ4g4AAAA=</LocationChanged>
+					</Times>
+					<PreviousParentGroup>IbPjfEm7SXGuCIc7Gd8SNQ==</PreviousParentGroup>
+					<String>
+						<Key>Notes</Key>
+						<Value>This is password 2.</Value>
+					</String>
+					<String>
+						<Key>Nouvel attribut 1</Key>
+						<Value>This is the value of the new attribut 1</Value>
+					</String>
+					<String>
+						<Key>Nouvel attribut 2</Key>
+						<Value>This is the value of attribut 2</Value>
+					</String>
+					<String>
+						<Key>Password</Key>
+						<Value ProtectInMemory="True">password</Value>
+					</String>
+					<String>
+						<Key>Title</Key>
+						<Value>password 20</Value>
+					</String>
+					<String>
+						<Key>URL</Key>
+						<Value>https://exemple2.com</Value>
+					</String>
+					<String>
+						<Key>UserName</Key>
+						<Value>user</Value>
+					</String>
+					<Binary>
+						<Key>doc-text.txt</Key>
+						<Value Ref="0"/>
+					</Binary>
+					<Binary>
+						<Key>meetup.png</Key>
+						<Value Ref="0"/>
+					</Binary>
+					<AutoType>
+						<Enabled>True</Enabled>
+						<DataTransferObfuscation>0</DataTransferObfuscation>
+						<DefaultSequence/>
+					</AutoType>
+					<History>
+						<Entry>
+							<UUID>4lrbyX0ES1CvPNcsRdUUtQ==</UUID>
+							<IconID>0</IconID>
+							<ForegroundColor/>
+							<BackgroundColor/>
+							<OverrideURL/>
+							<Tags>tag2,test</Tags>
+							<Times>
+								<LastModificationTime>IdFZ4g4AAAA=</LastModificationTime>
+								<CreationTime>CNBZ4g4AAAA=</CreationTime>
+								<LastAccessTime>IdFZ4g4AAAA=</LastAccessTime>
+								<ExpiryTime>CNBZ4g4AAAA=</ExpiryTime>
+								<Expires>False</Expires>
+								<UsageCount>0</UsageCount>
+								<LocationChanged>IdFZ4g4AAAA=</LocationChanged>
+							</Times>
+							<String>
+								<Key>Notes</Key>
+								<Value>This is password 2.</Value>
+							</String>
+							<String>
+								<Key>Nouvel attribut 1</Key>
+								<Value>This is the value of the new attribut 1</Value>
+							</String>
+							<String>
+								<Key>Nouvel attribut 2</Key>
+								<Value>This is the value of attribut 2</Value>
+							</String>
+							<String>
+								<Key>Password</Key>
+								<Value ProtectInMemory="True">password</Value>
+							</String>
+							<String>
+								<Key>Title</Key>
+								<Value>password 2 – Cloner</Value>
+							</String>
+							<String>
+								<Key>URL</Key>
+								<Value>https://exemple2.com</Value>
+							</String>
+							<String>
+								<Key>UserName</Key>
+								<Value>user</Value>
+							</String>
+							<Binary>
+								<Key>doc-text.txt</Key>
+								<Value Ref="0"/>
+							</Binary>
+							<Binary>
+								<Key>meetup.png</Key>
+								<Value Ref="0"/>
+							</Binary>
+							<AutoType>
+								<Enabled>True</Enabled>
+								<DataTransferObfuscation>0</DataTransferObfuscation>
+								<DefaultSequence/>
+							</AutoType>
+						</Entry>
+						<Entry>
+							<UUID>4lrbyX0ES1CvPNcsRdUUtQ==</UUID>
+							<IconID>0</IconID>
+							<ForegroundColor/>
+							<BackgroundColor/>
+							<OverrideURL/>
+							<Tags>tag2,test</Tags>
+							<Times>
+								<LastModificationTime>8dFZ4g4AAAA=</LastModificationTime>
+								<CreationTime>7dFZ4g4AAAA=</CreationTime>
+								<LastAccessTime>8dFZ4g4AAAA=</LastAccessTime>
+								<ExpiryTime>qvDf6Q4AAAA=</ExpiryTime>
+								<Expires>True</Expires>
+								<UsageCount>0</UsageCount>
+								<LocationChanged>8dFZ4g4AAAA=</LocationChanged>
+							</Times>
+							<PreviousParentGroup>IbPjfEm7SXGuCIc7Gd8SNQ==</PreviousParentGroup>
+							<String>
+								<Key>Notes</Key>
+								<Value>This is password 2.</Value>
+							</String>
+							<String>
+								<Key>Nouvel attribut 1</Key>
+								<Value>This is the value of the new attribut 1</Value>
+							</String>
+							<String>
+								<Key>Nouvel attribut 2</Key>
+								<Value>This is the value of attribut 2</Value>
+							</String>
+							<String>
+								<Key>Password</Key>
+								<Value ProtectInMemory="True">password</Value>
+							</String>
+							<String>
+								<Key>Title</Key>
+								<Value>password 2 – Cloner</Value>
+							</String>
+							<String>
+								<Key>URL</Key>
+								<Value>https://exemple2.com</Value>
+							</String>
+							<String>
+								<Key>UserName</Key>
+								<Value>user</Value>
+							</String>
+							<Binary>
+								<Key>doc-text.txt</Key>
+								<Value Ref="0"/>
+							</Binary>
+							<Binary>
+								<Key>meetup.png</Key>
+								<Value Ref="0"/>
+							</Binary>
+							<AutoType>
+								<Enabled>True</Enabled>
+								<DataTransferObfuscation>0</DataTransferObfuscation>
+								<DefaultSequence/>
+							</AutoType>
+						</Entry>
+					</History>
+				</Entry>
+			</Group>
+		</Group>
+		<DeletedObjects/>
+	</Root>
+</KeePassFile>
