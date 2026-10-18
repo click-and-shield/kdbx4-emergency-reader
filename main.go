@@ -1,22 +1,33 @@
 package main
 
 import (
+	"errors"
 	"fmt"
-	"log"
 	"os"
 
-	"keepass-reader/keepass"
+	"golang.org/x/term"
+	"keepass-reader/cli"
 )
 
 func main() {
-	if len(os.Args) != 3 {
-		log.Fatalf("usage: %s DATABASE.kdbx PASSWORD", os.Args[0])
+	if len(os.Args) < 2 {
+		fmt.Fprintln(os.Stderr, "usage: keepass-reader <list|get> ...")
+		os.Exit(2)
 	}
 
-	db, err := keepass.DecryptFile(os.Args[1], os.Args[2])
+	fmt.Fprint(os.Stderr, "Mot de passe : ")
+	password, err := term.ReadPassword(int(os.Stdin.Fd()))
+	fmt.Fprintln(os.Stderr)
 	if err != nil {
-		log.Fatal(err)
+		fmt.Fprintln(os.Stderr, "lecture du mot de passe:", err)
+		os.Exit(1)
 	}
 
-	fmt.Printf("Base déchiffrée : %s\n", db.Content.Meta.DatabaseName)
+	if err := cli.Run(os.Args[1:], string(password), os.Stdout); err != nil {
+		fmt.Fprintln(os.Stderr, "erreur:", err)
+		if errors.Is(err, cli.ErrUsage) {
+			os.Exit(2)
+		}
+		os.Exit(1)
+	}
 }
