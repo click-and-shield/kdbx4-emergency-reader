@@ -8,7 +8,7 @@ import (
 )
 
 func TestDecryptFile(t *testing.T) {
-	path := filepath.Join("..", "doc", "data", "database.kdbx")
+	path := filepath.Join("..", "..", "doc", "data", "database.kdbx")
 	db, err := DecryptFile(path, "dev")
 	if err != nil {
 		t.Fatalf("DecryptFile: %v", err)
@@ -21,7 +21,7 @@ func TestDecryptFile(t *testing.T) {
 }
 
 func TestDecryptFileRejectsWrongPassword(t *testing.T) {
-	path := filepath.Join("..", "doc", "data", "database.kdbx")
+	path := filepath.Join("..", "..", "doc", "data", "database.kdbx")
 	if _, err := DecryptFile(path, "wrong"); err == nil {
 		t.Fatal("DecryptFile accepted an invalid password")
 	}

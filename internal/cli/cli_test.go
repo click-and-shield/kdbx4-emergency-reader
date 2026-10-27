@@ -8,7 +8,7 @@ import (
 	"testing"
 )
 
-func fixture() string { return filepath.Join("..", "doc", "data", "database.kdbx") }
+func fixture() string { return filepath.Join("..", "..", "doc", "data", "database.kdbx") }
 
 func TestListText(t *testing.T) {
 	var out bytes.Buffer

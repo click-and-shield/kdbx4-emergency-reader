@@ -1,4 +1,5 @@
 // Package cli implements the keepass-reader command-line interface.
+// Parse the command line and execute the requested action ("list" or "get").
 package cli
 
 import (
@@ -10,9 +11,10 @@ import (
 	"strconv"
 	"strings"
 
+	"keepass-reader/internal/keepass"
+	"keepass-reader/internal/reader"
+
 	gokeepasslib "github.com/tobischo/gokeepasslib/v3"
-	"keepass-reader/keepass"
-	"keepass-reader/reader"
 )
 
 var ErrUsage = errors.New("invalid command line")
@@ -22,8 +24,8 @@ type getOptions struct {
 	output, format                    string
 }
 
-// Run executes a command. Password acquisition is kept outside this function
-// so the command logic can be tested without a terminal.
+// Run parses the command line and executes the requested action ("list" or "get").
+// Note: Password acquisition is kept outside this function so the command logic can be tested without a terminal.
 func Run(args []string, password string, stdout io.Writer) error {
 	if len(args) == 0 {
 		return usageError("expected command list or get")
@@ -122,22 +124,33 @@ func runGet(args []string, password string, out io.Writer) error {
 
 func renderText(out io.Writer, entry *gokeepasslib.Entry, opts getOptions) error {
 	var b strings.Builder
+	var err error
 	if opts.user {
-		fmt.Fprintf(&b, "user: %s\n", entry.GetContent("UserName"))
+		if _, err = fmt.Fprintf(&b, "user: %s\n", entry.GetContent("UserName")); err != nil {
+			return err
+		}
 	}
 	if opts.password {
-		fmt.Fprintf(&b, "password: %s\n", entry.GetContent("Password"))
+		if _, err = fmt.Fprintf(&b, "password: %s\n", entry.GetContent("Password")); err != nil {
+			return err
+		}
 	}
 	if opts.url {
-		fmt.Fprintf(&b, "url: %s\n", entry.GetContent("URL"))
+		if _, err = fmt.Fprintf(&b, "url: %s\n", entry.GetContent("URL")); err != nil {
+			return err
+		}
 	}
 	if opts.notes {
-		fmt.Fprintf(&b, "notes:\n%s\n", entry.GetContent("Notes"))
+		if _, err = fmt.Fprintf(&b, "notes:\n%s\n", entry.GetContent("Notes")); err != nil {
+			return err
+		}
 	}
 	if opts.files {
-		fmt.Fprintf(&b, "files: %s\n", quoteNames(reader.AttachmentNames(entry)))
+		if _, err = fmt.Fprintf(&b, "files: %s\n", quoteNames(reader.AttachmentNames(entry))); err != nil {
+			return err
+		}
 	}
-	_, err := io.WriteString(out, b.String())
+	_, err = io.WriteString(out, b.String())
 	return err
 }
 
