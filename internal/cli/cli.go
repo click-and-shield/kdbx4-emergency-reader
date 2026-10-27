@@ -1,5 +1,5 @@
 // Package cli implements the keepass-reader command-line interface.
-// Parse the command line and execute the requested action ("list" or "get").
+// Parse the command line and execute the requested action ("list", "get", or "help").
 package cli
 
 import (
@@ -24,13 +24,41 @@ type getOptions struct {
 	output, format                    string
 }
 
-// Run parses the command line and executes the requested action ("list" or "get").
+// Run parses the command line and executes the requested action ("list", "get", or "help").
 // Note: Password acquisition is kept outside this function so the command logic can be tested without a terminal.
 func Run(args []string, password string, stdout io.Writer) error {
 	if len(args) == 0 {
-		return usageError("expected command list or get")
+		return usageError("expected command list, get, or help")
 	}
 	switch args[0] {
+	case "help":
+		if len(args) != 1 {
+			return usageError("usage: keepass-reader help")
+		}
+		_, err := io.WriteString(stdout, `Usage:
+  keepass-reader list <database> [--format=text|json]
+  keepass-reader get <database> <id> [options]
+  keepass-reader help
+
+Commands:
+  list  List entries with their IDs and paths.
+  get   Show an entry by its ID from list.
+  help  Show this help without a database or password.
+
+Options for list and get:
+  --format=text|json  Output format (default: text).
+
+Options for get:
+  --user             Show username.
+  --password         Show password.
+  --url              Show URL.
+  --notes            Show notes.
+  --files            Save attachments.
+  --output=<dir>     Attachment output directory (default: current directory).
+
+If no fields are selected for get, all fields are shown and attachments are saved.
+`)
+		return err
 	case "list":
 		return runList(args[1:], password, stdout)
 	case "get":
@@ -59,11 +87,15 @@ func runList(args []string, password string, out io.Writer) error {
 	}
 	entries := reader.Entries(db)
 	if *format == "json" {
-		paths := make([]string, len(entries))
+		items := make([]struct {
+			ID    int    `json:"id"`
+			Label string `json:"label"`
+		}, len(entries))
 		for i := range entries {
-			paths[i] = entries[i].Path
+			items[i].ID = i + 1
+			items[i].Label = entries[i].Path
 		}
-		return writeJSON(out, paths)
+		return writeJSON(out, items)
 	}
 	for i := range entries {
 		if _, err := fmt.Fprintf(out, "[%d] %s\n", i+1, entries[i].Path); err != nil {

@@ -1,3 +1,48 @@
+# KeepassXC database emergency reader
+
+I wanted a portable standalone executable that I can use to read a KeePassXC database.
+
+By _portable standalone executable_, I mean a zero-dependency executable that does not require any installer.
+
+Such an executable does not exist. Thus, I decided to write one... with a little help of AI.
+
+## Usage
+
+```
+$ keepass-reader.exe help                                       
+Usage:
+keepass-reader list <database> [--format=text|json]
+keepass-reader get <database> <id> [options]
+keepass-reader help
+
+Commands:
+list  List entries with their IDs and paths.
+get   Show an entry by its ID from list.
+help  Show this help without a database or password.
+
+Options for list and get:
+--format=text|json  Output format (default: text).
+
+Options for get:
+--user             Show username.
+--password         Show password.
+--url              Show URL.
+--notes            Show notes.
+--files            Save attachments.
+--output=<dir>     Attachment output directory (default: current directory).
+
+If no fields are selected for get, all fields are shown and attachments are saved.
+```
+
+Examples:
+
+- [List all entries with their IDs and paths](doc/action-list-test.md).
+
+
+
+
+
+
 
 
 ```
