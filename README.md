@@ -6,147 +6,71 @@ By _portable standalone executable_, I mean a zero-dependency executable that do
 
 Such an executable does not exist. Thus, I decided to write one... with a little help of AI.
 
+> **WARNING**: this application is intended to be used in emergency situations.
+> Typically:
+> - You only have your database file and this application on a USB key.
+> - You cannot use your own computer, nor your smartphone, to read the database.
+>
+> You have no choice but to use a _potentially_ insecure device.
+> The risk is that someone steals your database file and your password.
+
 ## Usage
 
 ```
 $ keepass-reader.exe help                                       
+version: 1.0.0 (windows-amd64)
+
 Usage:
-keepass-reader list <database> [--format=text|json]
-keepass-reader get <database> <id> [options]
-keepass-reader help
+  keepass-reader list <database> [--format=text|json]
+  keepass-reader get <database> <id> [options]
+  keepass-reader help
+  keepass-reader version
 
 Commands:
-list  List entries with their IDs and paths.
-get   Show an entry by its ID from list.
-help  Show this help without a database or password.
+  list    List entries with their IDs and paths.
+  get     Show an entry by its ID from list.
+  help    Show this help without a database or password.
+  version Show the version.
 
 Options for list and get:
---format=text|json  Output format (default: text).
+  --format=text|json  Output format (default: text).
 
 Options for get:
---user             Show username.
---password         Show password.
---url              Show URL.
---notes            Show notes.
---files            Save attachments.
---output=<dir>     Attachment output directory (default: current directory).
+  --user             Show username.
+  --password         Show password.
+  --url              Show URL.
+  --notes            Show notes.
+  --files            Save attachments.
+  --output=<dir>     Attachment output directory (default: current directory).
 
 If no fields are selected for get, all fields are shown and attachments are saved.
 ```
 
 Examples:
 
-- [List all entries with their IDs and paths](doc/action-list-test.md).
+- [List all entries with their IDs and paths](doc/action-list.md)
+- [Get the data associated with a given entry identified by its ID](doc/action-get.md)
 
+## Compilation
 
+- **PowerShell**:
 
+  ```powershell
+  $buildDate = (Get-Date).ToUniversalTime().ToString("yyyy-MM-dd'T'HH:mm:ss'Z'")
+  $version = "1.0.0"
+  echo $buildDate
+  echo $version
+  go build -ldflags "-X keepass-reader/internal/cli.buildDate=$buildDate -X keepass-reader/internal/cli.version=$version" -o keepass-reader.exe .
+  ```
 
+- **Bash**:
 
+  ```bash
+  go build -ldflags "-X keepass-reader/internal/cli.buildDate=$(date -u +%Y-%m-%dT%H:%M:%SZ) -X keepass-reader/internal/cli.version=$version" -o keepass-reader.exe .
+  ```
 
+## Execute unit tests
 
-
-```
-keepass-reader.exe list .\doc\data\database.kdbx
-```
-
-Result:
-
-```
-[1] /Password 1
-[2] /password 2
-[3] /group 1/Password 1
-[4] /group 1/password 2
-[5] /group 1/group 2/password 2
-[6] /group 1/group 2/Password 1
-[7] /group 3/Password 10
-[8] /group 3/password 20
-```
-
-```
-keepass-reader.exe list .\doc\data\database.kdbx --format=json
-```
-
-Result:
-
-```
-[
-  "/Password 1",
-  "/password 2",
-  "/group 1/Password 1",
-  "/group 1/password 2",
-  "/group 1/group 2/password 2",
-  "/group 1/group 2/Password 1",
-  "/group 3/Password 10",
-  "/group 3/password 20"
-]
-```
-
-```
-keepass-reader.exe get .\doc\data\database.kdbx 1 --user --password
-```
-
-Result:
-
-```
-user: user
-password: passwod
-```
-
-```
-keepass-reader.exe get .\doc\data\database.kdbx 1 --user --password --notes --url
-```
-
-Result:
-
-```
-user: user
-password: passwod
-url: https://example.com
-notes:
-This is a note.
-```
-
-```
-keepass-reader.exe get .\doc\data\database.kdbx 1 --user --password --notes --url --format=json
-```
-
-Result:
-
-```
-{
-  "notes": "This is a note.",
-  "password": "passwod",
-  "url": "https://example.com",
-  "user": "user"
-}
-```
-
-```
-keepass-reader.exe get .\doc\data\database.kdbx 2 --output=.\data 
-```
-
-Result:
-
-```
-user: user
-password: password
-url: https://exemple2.com
-notes:
-This is password 2.
-files: "doc-text.txt", "meetup.png"
-```
-
-```
-C:\keepass-reader>dir data
- Le volume dans le lecteur C n’a pas de nom.
- Le numéro de série du volume est 608C-9134
-
- Répertoire de C:\Users\denis\Documents\github\keepass-reader\data
-
-18/10/2026  21:41    <DIR>          .
-18/10/2026  21:42    <DIR>          ..
-18/10/2026  21:41                14 doc-text.txt
-18/10/2026  21:41           141 145 meetup.png
-               2 fichier(s)          141 159 octets
-               2 Rép(s)  438 130 188 88 octets libres
-```
+  ```
+  go test -v -cover ./...
+  ```

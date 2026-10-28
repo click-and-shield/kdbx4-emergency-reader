@@ -8,6 +8,7 @@ import (
 	"flag"
 	"fmt"
 	"io"
+	"runtime"
 	"strconv"
 	"strings"
 
@@ -18,6 +19,10 @@ import (
 )
 
 var ErrUsage = errors.New("invalid command line")
+
+var version = "undeclared version"
+
+var buildDate = "unknown compilation date"
 
 type getOptions struct {
 	user, password, url, notes, files bool
@@ -35,15 +40,34 @@ func Run(args []string, password string, stdout io.Writer) error {
 		if len(args) != 1 {
 			return usageError("usage: keepass-reader help")
 		}
-		_, err := io.WriteString(stdout, `Usage:
+		return printHelp(stdout)
+	case "version":
+		_, err := io.WriteString(stdout, fmt.Sprintf("%s (%s-%s %s)\n", version, runtime.GOOS, runtime.GOARCH, buildDate))
+		return err
+	case "list":
+		return runList(args[1:], password, stdout)
+	case "get":
+		return runGet(args[1:], password, stdout)
+	default:
+		return usageError("unknown command %q", args[0])
+	}
+}
+
+func printHelp(out io.Writer) error {
+	_, err := io.WriteString(out, fmt.Sprintf(`
+version: %s (%s-%s %s)
+
+Usage:
   keepass-reader list <database> [--format=text|json]
   keepass-reader get <database> <id> [options]
   keepass-reader help
+  keepass-reader version
 
 Commands:
-  list  List entries with their IDs and paths.
-  get   Show an entry by its ID from list.
-  help  Show this help without a database or password.
+  list    List entries with their IDs and paths.
+  get     Show an entry by its ID from list.
+  help    Show this help without a database or password.
+  version Show the version.
 
 Options for list and get:
   --format=text|json  Output format (default: text).
@@ -57,15 +81,9 @@ Options for get:
   --output=<dir>     Attachment output directory (default: current directory).
 
 If no fields are selected for get, all fields are shown and attachments are saved.
-`)
-		return err
-	case "list":
-		return runList(args[1:], password, stdout)
-	case "get":
-		return runGet(args[1:], password, stdout)
-	default:
-		return usageError("unknown command %q", args[0])
-	}
+`, version, runtime.GOOS, runtime.GOARCH, buildDate))
+
+	return err
 }
 
 func runList(args []string, password string, out io.Writer) error {

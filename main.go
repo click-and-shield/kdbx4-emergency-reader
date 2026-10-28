@@ -19,7 +19,7 @@ func main() {
 
 	// Help does not require a database password.
 	var password []byte
-	if os.Args[1] != "help" {
+	if os.Args[1] != "help" && os.Args[1] != "version" {
 		_, _ = fmt.Fprint(os.Stderr, "Password : ")
 		var err error
 		password, err = term.ReadPassword(int(os.Stdin.Fd()))
